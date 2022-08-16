@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: system-ui, sans-serif;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    border-bottom: solid red 1px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+nav img {
+    margin-left: 2rem;
+}
+
+nav li a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav li a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.about-us {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    margin: 5.5rem 4rem 5rem 6rem;
+    align-items: center;
+}
+
+.about-us .content {
+    margin-right: 15rem;
+}
+
+.about-us .content h1{
+ font-size: 50px;
+ line-height: 100%;
+ margin-bottom: 2rem;
+}
+
+.about-us .content p {
+    font-family: System-ui;
+    font-weight: 400;
+    font-size: 20px;
+    color: #737373;
+}
+
+.about-us img {
+    border-radius: 2rem;
+    width: 550px;
+    border: 2px solid red;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    /* background-color:aquamarine; */
+    text-align: center;
+}
+
+.courses .course, .testimony >h2 {
+    font-family: system-ui;
+    font-size: 42px;
+    margin-bottom: 2rem;
+
+}
+
+.courses .course-items {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    /* margin: 2rem; */
+    /* padding: 1rem 10rem 1rem 10rem; */
+}
+
+.course-items .course-item {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin-right: 20px;
+    color: #737373;
+    background-color: #fff;
+    border: 1px solid red;
+    /* box-shadow: 1px 2px 10px 1px red; */
+}
+
+
+.course-items h2 {
+    margin-bottom: 1rem;
+    color:#000;
+    font-family: "poppins",sans-serif; 
+}
+
+.testimony > p {
+    font-family: "poppins";
+    font-size: 20px;
+    color : #737373;
+    margin-top: -1rem;
+}
+
+/* .course-items ul {
+    font-weight:500;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: circle;
+    
+} */
+
+/* ul li {
+    margin-right: 2rem;
+} */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* background-color: rgb(244, 244, 244); */
+    text-align: center;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 3rem 0 2rem 25vw;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+ 
+}
+
+.testimonial .testifier-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    width: inherit;
+    align-items: center;
+   /* background-color:red; */
+}
+
+.testimonial .image-container {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+    align-self: center;
+   /* background-color: red; */
+}
+
+ .testifier-container> .image-container >img{  
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid red;
+    border-radius:50%;  
+}
+
+.name-container > h2 {
+    font-family: "poppins";
+    font-size:20px;
+    color:red;
+    margin-left: -60px;
+}
+
+.name-container > p {
+    font-family: "poppins";
+    font-size: 16px;
+    color:#737373;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: inherit;
+    align-items: flex-start;
+    /* background-color: red; */
+    /* padding-top: 7rem; */
+    /* margin-bottom: 20px; */
+    
+}
+
+
+.footer-container > .contact-container {
+    /* align-items: flex-end; */
+    background-color:black;
+    width: 100%;
+    height: 3rem;
+    margin-top: 5px;
+
+}
+
+.contact, .contact-container {
+    margin-top: 3rem;
+    padding-left :2rem;
+}
+
+.footer-container .contact {
+    font-size: 24px;
+    font-family: system-ui;
+}
+
+.contact-container > ul {
+    display: flex;
+    height: inherit;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    /* padding: 0px 0px 0px 10px; */
+    /* margin-left : 1rem; */
+}
+
+.contact-container > .links > a > .logo {
+    width: 28px;
+    height: 30px;
+    margin-right: 1rem;
+    color: #fff;
+}
